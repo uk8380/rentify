@@ -6,7 +6,7 @@ const Header = () => {
 
   const handleLogout = () => {
     localStorage.removeItem('token');
-    // alert("See u Soon!");
+    alert("See u Soon!");
     window.location.reload();
     navigate('/login');
   };

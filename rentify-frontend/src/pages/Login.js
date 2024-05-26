@@ -19,7 +19,7 @@ const Login = () => {
       const { token } = await loginUser(formData);
       localStorage.setItem('token', token);
       // Show alert
-      // alert('You are now logged in!');
+      alert('You are now logged in!');
       // Reload page
       window.location.reload();
       // Redirect to properties page after successful login
