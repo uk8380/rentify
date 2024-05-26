@@ -1,25 +1,7 @@
-// import axios from 'axios';
 
-// const API_URL = 'http://localhost:8800/api';
-
-// export const registerUser = (data) => axios.post(`${API_URL}/users/register`, data);
-// export const loginUser = (data) => axios.post(`${API_URL}/users/login`, data);
-// export const getProperties = () => axios.get(`${API_URL}/properties`);
-// export const postProperty = (data, token) => axios.post(`${API_URL}/properties`, data, {
-//   headers: { Authorization: `Bearer ${token}` }
-// });
-// export const updateProperty = (id, data, token) => axios.put(`${API_URL}/properties/${id}`, data, {
-//   headers: { Authorization: `Bearer ${token}` }
-// });
-// export const deleteProperty = (id, token) => axios.delete(`${API_URL}/properties/${id}`, {
-//   headers: { Authorization: `Bearer ${token}` }
-// });
-// export const getSellerProperties = (token) => axios.get(`${API_URL}/properties/seller`, {
-//   headers: { Authorization: `Bearer ${token}` }
-// });
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8800/api';
+const API_URL = 'https://rentify-4phw.onrender.com/api';
 
 export const registerUser = async (data) => {
   try {
